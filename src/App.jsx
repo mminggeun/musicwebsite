@@ -2,6 +2,8 @@ import './App.css'
 import { BrowserRouter as   Router, Route, Routes } from "react-router-dom";
 import Header from './component/Header';
 import Home from './component/Home';
+import Addmusic from './component/Addmusic';
+import Playlist from './component/Playlist';
 import Kballad from './genre/Kballad';
 import Wpop from './genre/Wpop';
 import Kdanelec from './genre/Kdanelec';
@@ -17,6 +19,8 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element = {<Home/>} />
+          <Route path="/addmusic" element = {<Addmusic/>} />
+          <Route path="/playlist" element = {<Playlist/>} />
           <Route path="/kballad" element = {<Kballad/>} />
           <Route path="/wpop" element = {<Wpop/>} />
           <Route path="/kdanelec" element = {<Kdanelec/>} />

@@ -1,7 +1,7 @@
 .home-container1 {
     margin-left:210px;
     width: 74%;
-    height: 44vh; /* 화면 전체 높이 */
+    height: 44vh; 
     background-image: url('../assets/site/siteimage3.png');
     background-size: cover;
     background-position: center;
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;    
     position: relative;
-    text-align: center; /* 텍스트 가운데 정렬 */
+    text-align: center; 
 }
 
 .genre-container {
@@ -21,51 +21,59 @@
 }
 
 .slider-container1 {
-    max-width:70%; /* 슬라이더 너비 설정 */
-    margin: 10px 30px; /* 가운데 정렬 */
+    max-width:80%; 
+    margin: 10px 135px; 
 }
 
-/* 슬라이더 아이템 */
 .genre-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:5px;
-    margin-left:45px;
+    padding:15px;
+    margin-left:30px;
 }
 
-/* 이미지 스타일 */
 .genre-image {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 .genre-image:hover {
-    transform: scale(1.1); /* 호버 시 확대 효과 */
+    transform: scale(1.1); 
+}
+  
+  .arrow {
+    position: absolute;
+    top: -6%;
+    transform: translateY(-20%);
+    z-index: 10;
+    color:  black;
+    border: none;
+    border-radius: 20%;
+    padding: 1px;
+    cursor: pointer;
+  }
+  
+  .arrow.prev {
+    left: 1105px;
+  }
+  
+  .arrow.next {
+    right: 65px; 
+  }
+  
+  .arrow:hover {
+    color: #a2b5df;
+  }
+
+  .situation-container {
+    margin-left: 210px;
+    margin-top: 33px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
-.slick-prev, .slick-next {
-    width: 40px; /* 화살표 크기 */
-    height: 40px; 
-    z-index: 10; /* 화살표가 슬라이더 위에 오도록 설정 */
-}
-
-/* 왼쪽 화살표 */
-.slick-prev {
-    left: -50px; /* 슬라이더 왼쪽 밖으로 이동 */
-}
-
-/* 오른쪽 화살표 */
-.slick-next {
-    right: -50px; /* 슬라이더 오른쪽 밖으로 이동 */
-}
-
-/* 화살표 커스터마이징 */
-.slick-prev:before, .slick-next:before {
-    font-size: 30px;
-    color: #333; /* 화살표 색상 */
-    opacity: 1; /* 기본 화살표 투명도 제거 */
-}
+  

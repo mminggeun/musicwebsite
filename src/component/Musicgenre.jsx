@@ -1,9 +1,9 @@
-import kballad from '../assets/site/kballad.png';
-import kdanelec from '../assets/site/kdanelec.png';
-import khiphop from '../assets/site/khiphop.png';
-import kindi from '../assets/site/kindi.png';
-import whiphop from '../assets/site/whiphop.png';
-import wpop from '../assets/site/wpop.png';
+import kballad from '../assets/site/kballad2.png';
+import kdanelec from '../assets/site/kdanelec2.png';
+import khiphop from '../assets/site/khiphop2.png';
+import kindi from '../assets/site/kindi2.png';
+import whiphop from '../assets/site/whiphop2.png';
+import wpop from '../assets/site/wpop2.png';
 
 export const genres = [
     {name: "kballad", image: kballad},

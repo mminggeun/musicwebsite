@@ -16,6 +16,8 @@ function Header() {
                     <Link to="/kindi">국내 인디</Link>
                     <Link to="/khiphop">국내 힙합</Link>
                     <Link to="/whiphop">해외 힙합</Link>
+                    <Link to="/addmusic">노래 넣기</Link>
+                    <Link to="/playlist">플레이리스트</Link>
                 </div>
             </div>
         </>
